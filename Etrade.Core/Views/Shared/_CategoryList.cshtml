@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Etrade.Entity.Models.Entities.Category>
+<ul class="list-group">
+    @if(ViewBag.Id == null)
+    {
+        <li class="list-group-item active" aria-current="true">
+            <a class="active" asp-controller="Home" asp-action="List">All Categories</a>
+            
+        </li>
+    }
+    else
+    {
+        <li class="list-group-item" aria-current="true">
+            <a class="" asp-controller="Home" asp-action="List">All Categories</a>
+            
+        </li>
+    }
+    @foreach (var category in Model)
+    {
+        if(ViewBag.Id != null)
+        {
+            if(category.Id == ViewBag.Id)
+            {
+                <li class="list-group-item">
+                    <a class="active" asp-controller="Home" asp-action="List" asp-route-id="@category.Id">@category.Name</a>
+                </li>
+            }
+            else
+            {
+                <li class="list-group-item">
+                    <a class="" asp-controller="Home" asp-action="List" asp-route-id="@category.Id">@category.Name</a>
+                </li>
+            }
+        }
+        else
+        {
+            <li class="list-group-item">
+                <a class="" asp-controller="Home" asp-action="List" asp-route-id="@category.Id">@category.Name</a>
+            </li>
+        }
+    }
+</ul>

@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Etrade.Entity", "Etrade\Etrade.Entity.csproj", "{8DF61C80-3694-4D3E-80C2-329E604C0FB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Etrade.Business", "..\Etrade.Business\Etrade.Business.csproj", "{E1F61244-07B0-4B4C-B399-EE5B4E31B0D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Etrade.DAL", "Etrade.DAL\Etrade.DAL.csproj", "{8BFA3CC9-D29B-42CB-AB30-2A6C5BEB059C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Etrade.Core", "Etrade.Core\Etrade.Core.csproj", "{65832BCF-440A-43B4-B93B-0F9D229B5933}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9AA81F70-DD30-4454-BC4A-EAC8CC60BD85}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe-GoogleLogin.txt = ReadMe-GoogleLogin.txt
+		ReadMe-Identity.txt = ReadMe-Identity.txt
+		ReadMe-Session.txt = ReadMe-Session.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETrade.API", "ETrade.API\ETrade.API.csproj", "{6EB476C2-C928-483F-867D-6758A236D0FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DF61C80-3694-4D3E-80C2-329E604C0FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF61C80-3694-4D3E-80C2-329E604C0FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF61C80-3694-4D3E-80C2-329E604C0FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF61C80-3694-4D3E-80C2-329E604C0FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F61244-07B0-4B4C-B399-EE5B4E31B0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F61244-07B0-4B4C-B399-EE5B4E31B0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F61244-07B0-4B4C-B399-EE5B4E31B0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F61244-07B0-4B4C-B399-EE5B4E31B0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BFA3CC9-D29B-42CB-AB30-2A6C5BEB059C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFA3CC9-D29B-42CB-AB30-2A6C5BEB059C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFA3CC9-D29B-42CB-AB30-2A6C5BEB059C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFA3CC9-D29B-42CB-AB30-2A6C5BEB059C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65832BCF-440A-43B4-B93B-0F9D229B5933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65832BCF-440A-43B4-B93B-0F9D229B5933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65832BCF-440A-43B4-B93B-0F9D229B5933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65832BCF-440A-43B4-B93B-0F9D229B5933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB476C2-C928-483F-867D-6758A236D0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB476C2-C928-483F-867D-6758A236D0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB476C2-C928-483F-867D-6758A236D0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB476C2-C928-483F-867D-6758A236D0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC3AF741-407E-4A4F-AFEA-D1A9E8CCA8CE}
+	EndGlobalSection
+EndGlobal
